@@ -1,0 +1,53 @@
+.productDescriptionBody{
+
+
+    h1{
+        font-size: 24px;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    .ratings{
+        font-size: 15px;
+    }
+
+    .productPrice{
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+
+        small{
+            text-decoration: line-through;
+            margin-left: 5px;
+        }
+    }
+
+    .cartContent{
+
+        margin-top: 10px;
+
+        .quantity{
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+        }
+    }
+
+    .buttonBody{
+        display: flex;
+        flex-flow: column;
+        margin-top: 30px;
+
+        .addtocart{
+            max-width: 200px;
+            border-radius: 10px;
+            background-color: #F7CA00;
+        }
+
+        .buynow{
+            max-width: 200px;
+            margin-top: 10px;
+            border-radius: 10px;
+            background-color: #FA8900;
+        }
+    }
+}

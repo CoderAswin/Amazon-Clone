@@ -1,0 +1,55 @@
+
+.cardBody{
+
+    cursor: pointer;
+    margin-top: 40px;
+    font-family: 'Titillium Web', sans-serif;
+
+    a:link { 
+        text-decoration: none; 
+    }
+
+
+    .shopNow{
+
+        h1{
+            text-align: center;
+        }
+    
+    }
+
+    .productHeading{
+        text-align: center;
+        line-height: 0.5;
+        color: black;
+        
+
+
+        h5{
+            font-weight: bold;
+        }
+
+        span{
+            font-size: 18px;
+        }
+    }
+
+    .productInfo{
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        margin-top: 20px;
+        color: black;
+
+        small{
+            text-decoration: line-through;
+            margin-left: 5px;
+        }
+
+        span{
+            margin-left: 4px;
+            font-weight: bold;
+        }
+    }
+}
+
